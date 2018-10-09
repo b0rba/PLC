@@ -3,7 +3,7 @@ import System.IO
 
 getFirstLetter :: String -> String
 getFirstLetter [] = "Empty String"
-getFirstLetter all@(x:xs) = "The !(first letter) in " ++ all ++ " is " ++ xs
+getFirstLetter all(x:xs) = "The !(first letter) in " ++ all ++ " is " ++ show x
 
 areStringEq :: [Char] -> [Char] -> Bool
 areStringEq [] [] = True
